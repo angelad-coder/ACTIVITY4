@@ -125,3 +125,5 @@ VALUES
 
 
 
+ALTER TABLE Owners
+ADD COLUMN RegisteredDate DATE;
