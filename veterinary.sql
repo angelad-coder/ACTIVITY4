@@ -38,6 +38,14 @@ CREATE TABLE doctors (
     email VARCHAR(100),
 );
 
+CREATE TABLE invoices (
+    invoiceid INT PRIMARY KEY,
+    appointid INT,
+    totalamount DECIMAL(10,2),
+    paymenttime TIME,
+    FOREIGN KEY (appointid) REFERENCES appointments(appointid)
+);
+
 CREATE TABLE medicalrecords (
     recordid INT PRIMARY KEY,
     animalid INT,
@@ -151,10 +159,3 @@ FROM appointments a
 JOIN animals an ON a.animalid = an.animalid
 JOIN owners o ON an.ownerid = o.ownerid
 WHERE o.ofirstname = 'Maria';
-
-SELECT an.name, COUNT(a.appointid) AS total
-FROM animals an
-JOIN appointments a ON an.animalid = a.animalid
-GROUP BY an.name
-ORDER BY total DESC
-LIMIT 1;
