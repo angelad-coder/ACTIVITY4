@@ -72,3 +72,15 @@ INSERT INTO animals VALUES
 (8,'Luna','Cat','Maine Coon','2020-12-12','Female','Brown',8),
 (9,'Rocky','Dog','German Shepherd','2015-04-04','Male','Tan',9),
 (10,'Zoe','Cat','Ragdoll','2019-09-09','Female','Grey',10);
+
+INSERT INTO appointments VALUES
+(1,1,'2023-01-05 09:30:00','Regular checkup'),
+(2,1,'2023-02-15 10:00:00','Vaccination'),
+(3,1,'2023-06-10 11:00:00','Skin issue'),
+(4,2,'2023-03-01 14:00:00','Dental cleaning'),
+(5,3,'2023-04-02 10:30:00','Injury check'),
+(6,4,'2023-05-05 13:45:00','Spay/Neuter consult'),
+(7,5,'2023-07-07 15:00:00','Vaccination'),
+(8,6,'2023-08-08 16:30:00','Grooming'),
+(9,7,'2023-09-09 09:15:00','Skin allergy'),
+(10,8,'2023-10-10 11:30:00','Eye infection');
