@@ -60,3 +60,15 @@ INSERT INTO owners VALUES
 (8,'Diego','Navarro','44 Pineapple Way','09178889999','diego@example.com'),
 (9,'Nina','Cruz','55 Banana Rd','09179990000','nina@example.com'),
 (10,'Peter','Lim','66 Guava St','09170001111','peter@example.com');
+
+INSERT INTO animals VALUES
+(1,'Whiskers','Cat','Siamese','2019-06-15','Male','Cream',1),
+(2,'Simba','Cat','Mixed','2020-02-20','Male','Orange',2),
+(3,'Buddy','Dog','Labrador','2018-08-01','Male','Black',3),
+(4,'Bella','Dog','Beagle','2021-01-05','Female','Tricolor',4),
+(5,'Milo','Cat','Persian','2017-11-11','Male','White',5),
+(6,'Lucy','Dog','Poodle','2022-05-09','Female','Apricot',6),
+(7,'Coco','Dog','Bulldog','2016-09-30','Female','Brindle',7),
+(8,'Luna','Cat','Maine Coon','2020-12-12','Female','Brown',8),
+(9,'Rocky','Dog','German Shepherd','2015-04-04','Male','Tan',9),
+(10,'Zoe','Cat','Ragdoll','2019-09-09','Female','Grey',10);
