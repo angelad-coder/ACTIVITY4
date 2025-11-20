@@ -38,10 +38,13 @@ CREATE TABLE doctors (
     email VARCHAR(100),
 );
 
-CREATE TABLE invoices (
-    invoiceid INT PRIMARY KEY,
-    appointid INT,
-    totalamount DECIMAL(10,2),
-    paymenttime TIME,
-    FOREIGN KEY (appointid) REFERENCES appointments(appointid)
+CREATE TABLE medicalrecords (
+    recordid INT PRIMARY KEY,
+    animalid INT,
+    doctorid INT,
+    diagnosis VARCHAR(255),
+    prescription VARCHAR(255),
+    notes TEXT,
+    FOREIGN KEY(animalid) REFERENCES animals(animalid),
+    FOREIGN KEY(doctorid) REFERENCES doctors(doctorid)
 );
