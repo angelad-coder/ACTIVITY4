@@ -48,3 +48,15 @@ CREATE TABLE medicalrecords (
     FOREIGN KEY(animalid) REFERENCES animals(animalid),
     FOREIGN KEY(doctorid) REFERENCES doctors(doctorid)
 );
+
+INSERT INTO owners VALUES
+(1,'Maria','Garcia','123 Maple St','09171234567','maria@example.com'),
+(2,'John','Reyes','456 Oak Ave','09172223333','john@example.com'),
+(3,'Ana','Lopez','789 Pine Rd','09173334444','ana@example.com'),
+(4,'Mark','Dela Cruz','10 Mango St','09174445555','mark@example.com'),
+(5,'Liza','Santos','11 Coconut Ln','09175556666','liza@example.com'),
+(6,'Carlos','Torres','22 Cherry Blvd','09176667777','carlos@example.com'),
+(7,'Rosa','Velasco','33 Palm Dr','09177778888','rosa@example.com'),
+(8,'Diego','Navarro','44 Pineapple Way','09178889999','diego@example.com'),
+(9,'Nina','Cruz','55 Banana Rd','09179990000','nina@example.com'),
+(10,'Peter','Lim','66 Guava St','09170001111','peter@example.com');
