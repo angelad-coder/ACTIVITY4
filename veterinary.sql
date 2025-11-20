@@ -84,3 +84,16 @@ INSERT INTO appointments VALUES
 (8,6,'2023-08-08 16:30:00','Grooming'),
 (9,7,'2023-09-09 09:15:00','Skin allergy'),
 (10,8,'2023-10-10 11:30:00','Eye infection');
+
+INSERT INTO doctors VALUES
+(1,'Dr.Maria','Santos','General Veterinarian','9876543210','maria.doc@example.com'),
+(2,'Dr.Antonio','Gonzales','Feline Specialist','5551234567','antonio@example.com'),
+(3,'Dr.Felipe','Luna','Orthopedic Specialist','1112223333','felipe@example.com'),
+(4,'Dr.Sofia','Reyes','Dermatology Specialist','9998887777','sofia@example.com'),
+(5,'Dr.Luis','Torres','Surgery Specialist','1235557777','luis@example.com'),
+(6,'Dr.Carmen','Fernandez','Ophthalmology','3332221111','carmen@example.com'),
+(7,'Dr.Ricardo','Valdez','Cardiology','3213214321','ricardo@example.com'),
+(8,'Dr.Julia','Mendoza','Exotics','4445556666','julia@example.com'),
+(9,'Dr.Ryan','Delos','Nutrition','7778889999','ryan@example.com'),
+(10,'Dr.Grace','Lopez','Surgery','6665554444','grace@example.com');
+
